@@ -5,7 +5,7 @@ def BMI(w, h):
 
 #w = float(input('請輸入體重(KG)？'))
 w = st.number_input('請輸入體重(KG)?')
-h = float(input('請輸入身高(M)？'))
+h = st.number_input('請輸入身高(M)？')
 confirm_input= st.buttom('輸入確認')
 if confirm_input:
     bmi = BMI(w, h)
